@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Ultra" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <title>Tunji Essential Bootstrap</title>
+</head>
+
+<body>
+  <!-- You can define your own variables in here -->
+  <style>
+    :root {
+      --myCustomColor: #0600FF;
+    }
+
+    #moon {
+      font-family: 'Anton', sans-serif;
+      font-size: 4em;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  </style>
+  <header class="clearfix" id="moon" style="height: 25vh; background: url(images/moon.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
+    <div class="container-fluid text-center">The Moon</div>
+  </header>
+  <div class="container">
+    <div class="row text-center">
+      <h2 style="color: var(--yellow);" class="col-xl-6">A Yellow Heading</h2>
+      <h2 style="color: var(--myCustomColor);" class="col-xl-6">A Custom Color</h2>
+    </div>
+  </div>
+  <!-- container -->
+
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<!-- You can add classes like display-1 or h1 to an element, these are special classes in bootstrap 
+List of bootstrap classes:
+TYPOGRAPHY:
+display-1 to 6
+h1 to h6
+lead
+text-justify//lets the text of a paragraph or any other element sort of fit to the left and the right with the same amount of spacing. It doesn't leave you any ragged columns to either side
+text-nowrap// allows you to just sort of run text infinitely to one side without actually cutting it off at the edge
+text-left, text-center, text-right
+text-(xx)-pos, where xx is either sm>576px, md>768, lg>992, xl>1200 and pos is left, center or right
+text-lowercase
+text-uppercase
+text-capitalize//capitalizes first letter
+font-weight-bold
+font-weight-normal
+font-italic
+
+BLOCKQUOTES & LISTS:
+list-unstyled//removes bullets
+list-inline on ul//then apply list-inline-item on each list item
+
+in the editor use alt+ctrl with up or down arrow to make multiple line selections
+
+blockquote
+blockquote-footer
+
+COLORS:
+text-COLOR//COLORs: primary, secondary, success, danger, warning, info, light, dark, white
+
+bg-COLOR//adds background color, use COLORs list above, bg-faded
+
+IMAGES:
+img-fluid//will give you responsive images. That means that if you add this class to an image it's going to adjust to be the width of the container. And therefore it'll also respond to that container's size, so if you're using columns or if you're using just a container or container fluid, it's going to just resize to the width of those containers
+
+rounded, rounded-DIR//DIR: top, right, bottom, left, circle, (rounded-0: removes roundness)
+
+img-thumbnail rounded 1px border
+float-left, float-right
+text-center//center inline
+mx-auto//center block
+
+figure//add figure class to <figure> tag
+figure-img//to img in figure
+figure-caption on the text
+
+
+
+CSS VARIABLES
+<h2 style="color: var(--yellow);">My Container</h2>
+Note: if you are using a bootstrap class with an assigned color, you must use the !important rule to override the bootstrap rule or remove the bootstrap class
+
+LAYOUT
+12 column grid layout for extra small, small, mediul, large and extra large
+container, container-fluid, row, col
+container, container-fluid//always gets 15px padding
+Adjusts to the following breakpoints 
+<576px, 576px, 768px, 992px, 1200px
+vh stands for vertical height and the value provided is a percentage of the viewport height
+-->
